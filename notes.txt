@@ -1,0 +1,15 @@
+Ran the following ng commands to create the game.
+
+npm install -g @angular/cli
+ng new ttt
+ng serve --open
+ng generate component game
+ng add @angular/material
+npm install --save bootstrap
+ng generate class game-play 
+ng generate class game-status
+
+business logic is in the game-play module.  game status is an enum for tracking start and
+stop.
+
+See readme for instructions on how to run the game.

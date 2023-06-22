@@ -1,0 +1,41 @@
+<div class="base-container">
+    <h1 class="mat-display-2" style="font-weight:1000; text-align:center; margin: 15px 0;">TicTacToe!!</h1>   
+
+    <div class = "board">
+        <div class = "players player-one align-self-center">
+            <p class="mat-body-1" style="font-weight: 800; margin: 0 20px;">Human Player</p>
+        </div>
+
+        <div class = "rows container-fluid">
+            <div class = "row">
+                <div (click)=clickSquare($event) position="0" class = "square square-0"> </div>
+                <div (click)=clickSquare($event) position="1" class = "square square-1"></div>
+                <div (click)=clickSquare($event) position="2" class = "square square-2"></div>
+            </div>
+            <div class = "row">
+                <div (click)=clickSquare($event) position="3" class = "square square-3"></div>
+                <div (click)=clickSquare($event) position="4" class = "square square-4"></div>
+                <div (click)=clickSquare($event) position="5" class = "square square-5"></div>
+            </div>
+            <div class = "row">
+                <div (click)=clickSquare($event) position="6" class = "square square-6"></div>
+                <div (click)=clickSquare($event) position="7" class = "square square-7"></div>
+                <div (click)=clickSquare($event) position="8" class = "square square-8"></div>
+            </div>
+
+        </div>
+    
+        <div class = "players player-two align-self-center"> 
+            <p class="mat-body-1" style="font-weight: 800; margin: 0 20px;">Computer Player</p>
+        </div>
+    </div>
+
+    <div class="field d-flex" style="justify-content:center">
+        <p class="current-status mat-body-1" style="font-weight: 400; margin: 0 0 10px 0;">Start the Game</p>
+    </div>   
+
+    <div class="field d-flex justify-content-center " style="width: 100%;  margin: 20px 0;">
+        <button (click)="startGame()" mat-raised-button color="accent" class="play_button">New Game</button>
+    </div>
+</div>
+
