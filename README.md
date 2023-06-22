@@ -1,6 +1,6 @@
-# Ttt
+# Tictactoe (ttt)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.  Run against node: v18.14.2 (mac).
 
 ## Development server
 
@@ -13,6 +13,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+(may need to run npm install prior.)
 
 ## Running unit tests
 
